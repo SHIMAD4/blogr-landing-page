@@ -1,0 +1,20 @@
+.humburger {
+  display: none;
+  z-index: 9999;
+}
+.close {
+  display: none;
+}
+.close.active {
+  display: none;
+}
+
+ @media (max-width: 787px) {
+   .humburger {
+     display: block;
+   }
+   .close.active {
+    display: block;
+    z-index: 9997;
+  }
+ }

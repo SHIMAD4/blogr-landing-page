@@ -1,0 +1,11 @@
+@import url(./settings.css);  /* common styles */
+@import url(./btn.css);       /* all btn styles */
+@import url(./humburger.css); /* humburger styles */
+@import url(./header.css);    /* header styles */
+@import url(./dropdown.css);  /* dropdown styles */
+@import url(./popup.css);     /* popup styles */
+@import url(./banner.css);    /* banner styles */
+@import url(./editor.css);    /* block with editor.svg styles */
+@import url(./phones.css);    /* block with phones.svg styles */
+@import url(./laptop.css);    /* block with laptop.svg styles */
+@import url(./footer.css);    /* footer styles */

@@ -1,0 +1,38 @@
+.banner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    border-radius: 0 0 0 128px;
+    color: var(--white);
+    background-image: linear-gradient(to right, var(--bg-very-light-red), var(--bg-light-red));
+    overflow: hidden;
+}
+.banner__background {
+    position: absolute;
+    left: -14%;
+    top: 0;
+    z-index: 0;
+    width: 175%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner__inner {
+    z-index: 1;
+}
+.banner__title {
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+}
+.banner__subtitle {
+    margin-top: 24px;
+    text-align: center;
+}
+.banner__btns {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 48px;
+}

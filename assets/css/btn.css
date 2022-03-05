@@ -1,0 +1,33 @@
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+
+    padding: 15px 20px;
+    border: solid 2px var(--white);
+    border-radius: 24px;
+
+    cursor: pointer;
+
+    background: var(--white);
+    background-clip: padding-box;
+    color: var(--bg-light-red);
+    mix-blend-mode: screen;
+
+    transition: color var(--animation-time), border-color var(--animation-time), background-color var(--animation-time);
+}
+.btn:hover {
+    background-color: rgba(215, 217, 227, 31%);
+    border-color: rgba(215, 217, 227, 31%);
+    color: var(--white);
+}
+
+
+.btn.empty {
+    background: transparent;
+    color: var(--white);
+}
+.btn.empty:hover {
+    background: var(--white);
+    border-color: var(--white);
+    color: var(--bg-light-red);;
+}
